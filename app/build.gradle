@@ -55,24 +55,24 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:${retrofit_converter_gson_version}"
     implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofit_adapter_version}"
 
-    //Glide
+    // Glide
     def glide_version = "4.11.0"
     implementation "com.github.bumptech.glide:glide:${glide_version}"
     annotationProcessor "com.github.bumptech.glide:compiler:${glide_version}"
 
-    // koin
+    // Koin
     def koin_version = "2.1.5"
     implementation "org.koin:koin-android:$koin_version"
     implementation "org.koin:koin-android-scope:$koin_version"
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
-    // livedata
+    // Livedata
     def lifecycle_version = "2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
 
-    // rxjava
+    // RXJava
     def rxkotlin_version = "2.3.0"
     def rxandroid_version = "2.1.1"
     def rxjava_version = "2.2.15"
@@ -80,6 +80,7 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:${rxandroid_version}"
     implementation "io.reactivex.rxjava2:rxjava:${rxjava_version}"
 
+    // Lottie
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
 
