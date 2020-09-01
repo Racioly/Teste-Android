@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">digio Android</string>
+    <string name="text_welcome">Seja bem vindo</string>
+    <string name="text_attention">Atenção!</string>
+    <string name="text_ok">OK</string>
+    <string name="text_home_fragment">HomeFragment</string>
+    <string name="text_back">Voltar</string>
+    <string name="text_developed_by">Desenvolvido por</string>
+    <string name="text_developer">Rafael Acioly de Oliveira</string>
+    <string name="text_digio">digio</string>
+    <string name="text_cash">Cash</string>
+    <string name="text_imv_content_descrition">imagem</string>
+    <string name="text_products">Produtos</string>
+</resources>
